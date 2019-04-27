@@ -4,6 +4,7 @@ for your project.
 
 # Installation
 
+# Usage
 
 # License disclamer
 in order to use this project, reffere yourself to the LISENCE file in the
