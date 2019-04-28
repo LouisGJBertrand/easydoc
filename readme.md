@@ -8,12 +8,18 @@ for your project.
 3. set up every variables that meant to be modified. (you can check the official documentation to know where to modify things).
 
 # Usage
+
+PHP server method
+
 1. in your cmd or unix terminal, navigate to the project folder
-2. typer ```bash php -S 127.0.0.1 rooter.php```
+2. type ```php -S 127.0.0.1:8080 rooter.php```
+3. access to 127.0.0.1:8080 or localhost:8080 with your web client
 
 # License disclamer
 in order to use this project, reffere yourself to the LISENCE file in the
 root folder.
 
 # Contributors
-- Louis Bertrand : https://github.com/PYLOTT
+- Louis Bertrand : [github][1]
+
+[1]: https://github.com/PYLOTT
