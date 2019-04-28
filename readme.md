@@ -21,15 +21,23 @@ easydoc is a project made in order to ease the creation of documentation for you
 
 PHP server method
 
-*With this method you will need an access to a console*
+*With this method you will need an access to a console and php.ini file*
 
   
 
-1. in your cmd or unix terminal, navigate to the project folder and `COMMON` folder
+1. active those extension files:
+```extension=curl
+extension=fileinfo
+extension=gd2
+extension=gmp
+extension=openssl
+extension=pdo_pgsql```
 
-2. type ```php -S 127.0.0.1:8080 rooter.php``` (this start a server on the local loop)
+2. in your cmd or unix terminal, navigate to the project folder and `COMMON` folder
 
-3. access to 127.0.0.1:8080 or localhost:8080 with your web client
+3. type ```php -S 127.0.0.1:8080 router.php --with-gd[=DIR]``` (this start a server on the local loop)
+
+4. access to 127.0.0.1:8080 or localhost:8080 with your web client
 
   
 
