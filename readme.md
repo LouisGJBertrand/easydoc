@@ -26,12 +26,8 @@ PHP server method
   
 
 1. active those extension files:
-```extension=curl
-extension=fileinfo
-extension=gd2
-extension=gmp
-extension=openssl
-extension=pdo_pgsql```
+
+```extension=curl extension=fileinfo extension=gd2 extension=gmp extension=openssl extension=pdo_pgsql```
 
 2. in your cmd or unix terminal, navigate to the project folder and `COMMON` folder
 
