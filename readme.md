@@ -20,6 +20,7 @@ easydoc is a project made in order to ease the creation of documentation for you
   
 
 PHP server method
+
 *With this method you will need an access to a console*
 
   
