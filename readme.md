@@ -28,7 +28,7 @@ PHP server method
 
 2. type ```php -S 127.0.0.1:8080 rooter.php``` (this start a server on the local loop)
 
-3. access to [127.0.0.1:8080][127.0.0.1:8080] or [localhost:8080][localhost:8080] with your web client
+3. access to 127.0.0.1:8080 or localhost:8080 with your web client
 
   
 
