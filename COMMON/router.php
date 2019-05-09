@@ -1,12 +1,26 @@
 <?php
 
+    // EASY DOC CONFIGURATION
     define("SYSTEMFOLDER", "sys.fd");
     define("STATICFOLDER", "static");
+    define("DOCFOLDER", "doc");
+    define("CLASSFOLER", SYSTEMFOLDER.DIRECTORY_SEPARATOR."class");
 
     require_once SYSTEMFOLDER.DIRECTORY_SEPARATOR."kernel.php";
-    require_once STATICFOLDER.DIRECTORY_SEPARATOR."files.php";
     require_once "config.php";
 
+
+    // DATABASE CONNECTION
+    require_once  CLASSFOLER.DIRECTORY_SEPARATOR."db_conn.php";
+    $db_conn = new db_conn($databaseHostserv, $databaseDBName, $databaseUsername, $databasePassword);
+
+
+    // FILES AND VIEWS REGISTRATION
+    require_once DOCFOLDER.DIRECTORY_SEPARATOR."views.php";
+    require_once STATICFOLDER.DIRECTORY_SEPARATOR."files.php";
+
+
+    // HTTP QUERY TREATMENT
     $uri = parse_url("root".$_SERVER["REQUEST_URI"]);
 
     $requestedUri = explode("/", $uri["path"]);
